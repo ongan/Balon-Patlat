@@ -7,6 +7,7 @@ public class BalonKontrolcu : MonoBehaviour
     public GameObject patlama;
     OyunKontrolcu oyunKontrolcuScripti;
 
+
     private void Start()
     {
         oyunKontrolcuScripti = GameObject.Find("_Scripts").GetComponent<OyunKontrolcu>();
